@@ -30,7 +30,7 @@ class PermutationTest():
         return new_data1, new_data2
     
     def check_p_value(self, probability):
-        if probability < self.p_value:
+        if probability <= self.p_value:
             print("Withdraw null hypothesis")
         else:
             print("Stay with null hpothesis")
